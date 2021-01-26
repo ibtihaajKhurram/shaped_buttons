@@ -1,7 +1,6 @@
 name: shaped_buttons
 description: shaped_buttons is a flutter library that allows you to create parallelogram shaped featured buttons.
 version: 0.0.1
-author: ibtihaajdev@gmail.com
 homepage: https://github.com/ibtihaajKhurram/shaped_buttons
 
 environment:
