@@ -73,7 +73,21 @@ class DemoPage extends StatelessWidget {
               ParallalogramButton(
                 width: 220,
                 borderColor: Colors.black,
+                buttonColor: Colors.transparent,
+                borderWdth: 1,
+                child: Text(
+                  "Transparent button with border",
+                  style: TextStyle(color: Colors.black),
+                ),
+                onPressed: () {
+                  print('Button Pressed');
+                },
+              ),
+              ParallalogramButton(
+                width: 260,
+                borderColor: Colors.black,
                 buttonColor: Colors.yellow[700],
+                tilt: 20,
                 boxShadow: [
                   new BoxShadow(
                     blurRadius: 34.0,
@@ -83,20 +97,7 @@ class DemoPage extends StatelessWidget {
                 ],
                 borderWdth: 2,
                 child: Text(
-                  "Button with shadow",
-                  style: TextStyle(color: Colors.black),
-                ),
-                onPressed: () {
-                  print('Button Pressed');
-                },
-              ),
-              ParallalogramButton(
-                width: 250,
-                borderColor: Colors.black,
-                buttonColor: Colors.transparent,
-                borderWdth: 1,
-                child: Text(
-                  "Transparent button with border",
+                  "Button with shadow and custom tilt",
                   style: TextStyle(color: Colors.black),
                 ),
                 onPressed: () {

@@ -12,7 +12,7 @@ Shaped Buttons is a flutter library that allows you to create parallelogram shap
 
 ##  How to use it.
 
-the default effects plain parallelogram
+the default plain parallelogram
 ```dart
   ParallalogramButton(
                 child: Text(
@@ -56,5 +56,6 @@ and you can also define custom properties.
 | boxShadow                       | shadow of button                                                                   | This is an optional parameter                                                                                                                                                                                   |
 | buttonColor                       | color of button                                                                   | Colors.blue                                                                                                                                                                                  |
 | onPressed                       | Void call-back of button                                                                  | override this for listening the call back when button is pressed                                                                                                                                                                                  |
+| tilt                       | controls the parallelogram tilt with max = 70 or min = -70                                                                   | 10                                                                                                                                                                                 |
 
 [more detail](https://github.com/ibtihaajKhurram/shaped_buttons/tree/master/example/lib)

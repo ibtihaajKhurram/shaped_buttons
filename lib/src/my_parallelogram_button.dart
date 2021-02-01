@@ -12,6 +12,7 @@ class ParallalogramButton extends StatelessWidget {
       this.height = 50,
       this.width = 120,
       this.boxShadow,
+      this.tilt=10,
       @required this.child})
       : super(key: key);
   final Key key;
@@ -24,6 +25,7 @@ class ParallalogramButton extends StatelessWidget {
   final EdgeInsetsGeometry margin;
   final double height;
   final double width;
+  final double tilt;
 
   @override
   Widget build(BuildContext context) {
@@ -36,6 +38,7 @@ class ParallalogramButton extends StatelessWidget {
         onTap: onPressed,
         child: CustomPaint(
           painter: MyParallelogram(
+              tilt: tilt,
               borderColor: borderColor ?? buttonColor,
               borderWidth: borderWdth,
               buttonColor: buttonColor),
